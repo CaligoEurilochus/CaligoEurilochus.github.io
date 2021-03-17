@@ -6,10 +6,37 @@ html {
 }
 
 
+#navBar {
+	Background-color: #CCC;
+	border-bottom: #999;
+	border-left: #999;
+	border-width: 0 0 thin thin;
+	border-style: none none groove groove;
+	display: block;
+	float: left;
+	margin: 0 0 0 10px;
+	padding: 10px 10px 10px 10px;
+	width: 175px;
+	line-height: 1.5em;
+	
+}
+	
+
+
 h1 {
 	font-size: 60px;
 	text-align: center;
 	color: #FF9100;
+	margin: 0;
+	padding: 20px 0;
+	text-shadow: 1px 1px 1px black;
+}
+
+
+h2 {
+	font-size: 40px;
+	text-align: center;
+	color: #3B0F66;
 	margin: 0;
 	padding: 20px 0;
 	text-shadow: 1px 1px 1px black;
