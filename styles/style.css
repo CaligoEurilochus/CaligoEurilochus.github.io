@@ -8,9 +8,6 @@ html {
 
 #navBar {
 	Background-color: #CCC;
-	
-/*	border-bottom: #999;
-	border-left: #999;	*/
 	border-width: 0 0 thin thin;
 	border-style: none none groove groove;
 	display: block;
@@ -18,11 +15,11 @@ html {
 	width: 175px;
 	line-height: 1.5em;
 	width: 120 px;
-	margin: 0px 30px 50px auto;
+	margin: -120px 30px 50px auto;
 	background-color: #FFFFFF;
 	padding: 20px 20px 20px 20px;
 	border: 5px solid black;
-	border-color: #671BB3
+	border-color: #671BB3;
 	
 }
 	
@@ -41,7 +38,7 @@ h1 {
 h2 {
 	font-size: 40px;
 	text-align: center;
-	color: #3B0F66;
+	color: #671BB3;
 	margin: 0;
 	padding: 20px 0;
 	text-shadow: 1px 1px 1px black;
@@ -55,7 +52,7 @@ body {
 	background-color: #FFFFFF;
 	padding: 0 20px 20px 20px;
 	border: 5px solid black; /*Hoe dik, en welke kleur de rand is*/
-	height: 400px /*hoever het hoofd gedeelt naar beneden gaat*/
+	height: auto; /*hoever het hoofd gedeelt naar beneden gaat*/
 }
 
 /*#content {
@@ -86,6 +83,12 @@ img {
 	margin: 0 auto;
 }
 
+.positioned {
+  position: absolute;
+  background: yellow;
+  top: 275px;
+  left: 30px;
+}
 
 
 

@@ -5,6 +5,22 @@ html {
 	color: #FF9100;
 }
 
+#navBar {
+	Background-color: #CCC;
+	border-width: 0 0 thin thin;
+	border-style: none none groove groove;
+	display: block;
+	float: left;
+	width: 175px;
+	line-height: 1.5em;
+	margin: 0px 30px 50px auto;
+	background-color: #FFFFFF;
+	padding: 20px 20px 20px 20px;
+	border: 5px solid black;
+	border-color: #671BB3
+	
+}
+
 
 h1 {
 	font-size: 60px;
@@ -17,12 +33,13 @@ h1 {
 
 
 body {
-  width: 750px;
-  margin: 0 auto;
-  background-color: #FFFFFF;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+	margin: 0px auto;
+	background-color: #FFFFFF;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
+	height: 635px; /*hoever het hoofd gedeelt naar beneden gaat*/
 }
+
 
 
 p {
