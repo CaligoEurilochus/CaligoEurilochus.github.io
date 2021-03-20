@@ -15,7 +15,7 @@ html {
 	width: 175px;
 	line-height: 1.5em;
 	width: 120 px;
-	margin: -120px 30px 50px auto;
+	/*margin: -120px 30px 50px auto;*/
 	background-color: #FFFFFF;
 	padding: 20px 20px 20px 20px;
 	border: 5px solid black;
@@ -85,8 +85,7 @@ img {
 
 .positioned {
   position: absolute;
-  background: yellow;
-  top: 275px;
+  top: 150px;
   left: 30px;
 }
 
