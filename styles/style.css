@@ -8,16 +8,21 @@ html {
 
 #navBar {
 	Background-color: #CCC;
-	border-bottom: #999;
-	border-left: #999;
+	
+/*	border-bottom: #999;
+	border-left: #999;	*/
 	border-width: 0 0 thin thin;
 	border-style: none none groove groove;
 	display: block;
 	float: left;
-	margin: 0 0 0 10px;
-	padding: 10px 10px 10px 10px;
 	width: 175px;
 	line-height: 1.5em;
+	width: 120 px;
+	margin: 0px 30px 50px auto;
+	background-color: #FFFFFF;
+	padding: 20px 20px 20px 20px;
+	border: 5px solid black;
+	border-color: #671BB3
 	
 }
 	
@@ -44,21 +49,41 @@ h2 {
 
 
 body {
-  width: 750px;
-  margin: 0 auto;
-  background-color: #FFFFFF;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
+	/*width: 750px;
+	*/
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black; /*Hoe dik, en welke kleur de rand is*/
+	height: 400px /*hoever het hoofd gedeelt naar beneden gaat*/
 }
+
+/*#content {
+	width: 750px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	padding: 0 20px 20px 20px;
+	border: 5px solid black;
+}	*/
+	
 
 
 p {
+	width: 750px;
 	color: #FF9100;
+	margin: 0px 120px 50px auto; /*de eerste is de afstand van boven, de tweede de afstand van links, de derde is de afstand onder de tekst, en de derde is de afstand van rechts*/
 }
 
+address {
+	width: 800px;
+	margin: 250px 50px 50px auto;
+}
+	
+	
+
 img {
-  display: block;
-  margin: 0 auto;
+	display: block;
+	margin: 0 auto;
 }
 
 
